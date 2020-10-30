@@ -1,0 +1,56 @@
+.filter-panel {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+    top: 7vh;
+    left: 4vw;
+
+    width: 13vw;
+    height: 70vh;
+
+    padding: 1vh;
+
+    background-color: white;
+    box-shadow: 0.1vh 0.1vw 0.3vh;
+
+    border-radius: 0.3vh;
+    border-style: none;
+}
+
+.filter-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: #f1f1f1;
+
+    padding: 1vh 1vw;
+
+    border-top-left-radius: 0.4vh;
+    border-top-right-radius: 0.4vh;
+}
+
+.filter-title p {
+    text-transform: uppercase;
+    font-size: 0.8vw;
+
+    margin: 0;
+}
+
+.clear-all-filters-button {
+    border-style: none;
+    outline: none;
+
+    margin-left: auto;
+
+    cursor: pointer;
+
+    color: #4d4d4d;
+
+    transition: color 1;
+}
+
+.clear-all-filters-button:hover {
+    color: black;
+}

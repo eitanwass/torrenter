@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(241, 241, 241);
+
+  min-height: 100vh;
+  padding: 0 1% 0 1%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-size: calc(10px + 2vmin);
+}
+
+.vertical-line {
+  height: 100%;
+  width: 0.1vw;
+
+  margin: 0 0.75vw;
+
+  background-color: #2d323b;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 0.1vw;
+
+  margin: 0.75vw 0;
+
+  background-color: #2d323b;
+}
+
+.loading {
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}

@@ -1,0 +1,29 @@
+.collapsible {
+    width: 100%;
+
+    padding: 0.5vh 1vw;
+
+    text-transform: capitalize;
+    text-align: left; 
+    font-size: 0.8vw;
+
+    background: #dfdfdf; 
+    cursor: pointer; 
+
+    outline: none;
+    border-style: none;
+    border-top: 0.2vh solid #d1d1d1;
+
+    transition: background 0.5s;
+}
+
+.collapsible:hover {
+    background: #f1f1f1; 
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}

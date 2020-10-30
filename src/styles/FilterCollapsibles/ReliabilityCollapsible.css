@@ -1,0 +1,11 @@
+.reliability-checkboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 0 1vw 1vh 1vw;
+}
+
+.reliability-checkboxes label {
+    font-size: 0.8vw;
+}

@@ -1,0 +1,59 @@
+.search-entry {
+    width: 55vw;
+    height: 4vh;
+
+    padding: 0 0.5vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-image: linear-gradient(to left, #6d727c, #ffffff 70%);
+
+    border-radius: 0.1vw;
+
+    box-shadow: 0.1vh 0.1vw 0.3vh;
+}
+
+.trusted {
+    background-image: linear-gradient(to left, #13b85d7F, #ffffff 70%);
+}
+
+.vip {
+    background-image: linear-gradient(to left, #11ff007F, #ffffff 70%);
+}
+
+.search-entry * {
+    font-size: 1vw;
+}
+
+.search-entry p {
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    width: 31vw;
+
+    text-align: left;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.seeders-leechers-row {
+    display: flex;
+
+    justify-content: center;
+
+    width: 5vw;
+}
+
+.seeders-leechers-row p {
+    margin: 0 0.2vw;
+}
+
+.size {
+    width: 5vw;
+}

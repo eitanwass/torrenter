@@ -1,0 +1,22 @@
+.to-top {
+    position: fixed;
+
+    bottom: 7vh;
+    right: 4vw;
+
+    width: 2vw;
+    height: 4vh;
+
+    background-color: white;
+    box-shadow: 0.1vh 0.1vw 0.2vw;
+
+    outline: none;
+    border-radius: 1vw;
+    border-style: none;
+
+    transition: background-color 0.3s;
+}
+
+.to-top:hover {
+    background-color: #f1f1f1;
+}
